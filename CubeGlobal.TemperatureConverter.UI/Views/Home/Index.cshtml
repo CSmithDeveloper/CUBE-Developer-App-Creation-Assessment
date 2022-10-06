@@ -1,0 +1,20 @@
+﻿@using CubeGlobal.TemperatureConverter.Common
+
+@model CubeGlobal.TemperatureConverter.UI.Models.HomeViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Temperature Converter</h2>
+    <p class="lead">CUBE Full Stack Developer App Creation Assessment</p>
+    <br />
+    @Html.Partial("Convert", Model.Convert)
+</div>
+
+@Html.Partial("Audit", Model.Audit)
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CubeGlobal.TemperatureConverter.UI.Models.AuditModel>
+
+<h4>Conversion Audit Trail</h4>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedFromScale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedFromDisplayValue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedToScale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedToDisplayValue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConvertedAt)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedFromScale)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedFromDisplayValue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedToScale)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedToDisplayValue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConvertedAt)
+        </td>  
+    </tr>
+}
+</table>
