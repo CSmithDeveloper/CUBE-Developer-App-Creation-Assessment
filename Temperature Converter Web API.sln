@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.WebAPI", "CubeGlobal.TemperatureConverter.WebAPI\CubeGlobal.TemperatureConverter.WebAPI.csproj", "{5127CA76-E6D2-40CD-A285-34B34F890453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Service Hosting", "4. Service Hosting", "{8AFE8DA6-81C0-4131-B5F9-6F84132F2D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.ServiceLibrary", "CubeGlobal.TemperatureConverter.ServiceLibrary\CubeGlobal.TemperatureConverter.ServiceLibrary.csproj", "{A0614CF3-CB92-48BC-B990-D315DC129C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Business Loigic", "3. Business Loigic", "{DDEF6AFD-BFDC-48D4-ABA6-9787EA226459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F14F2853-C92F-4AFD-BF22-F0F48D0988E7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Unit Tests", "6. Unit Tests", "{45BD15CA-32A0-4C4E-9148-269C74DA174D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.ServiceLibrary.UnitTests", "CubeGlobal.TemperatureConverter.ServiceLibrary.UnitTests\CubeGlobal.TemperatureConverter.ServiceLibrary.UnitTests.csproj", "{D520F5AC-D2A5-43A1-930C-BD453F8D221E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Common", "1. Common", "{68289014-63D6-4E18-B6F9-C0867764FE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.Common", "CubeGlobal.TemperatureConverter.Common\CubeGlobal.TemperatureConverter.Common.csproj", "{EE2A73E6-1EF8-413B-9178-D92307CFFD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.ServiceContracts", "CubeGlobal.TemperatureConverter.ServiceContracts\CubeGlobal.TemperatureConverter.ServiceContracts.csproj", "{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Repositories", "2. Repositories", "{DEC6CCF7-98CE-4B67-ADB1-BECD336D02A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.RepositoryContracts", "CubeGlobal.TemperatureConverter.RepositoryContracts\CubeGlobal.TemperatureConverter.RepositoryContracts.csproj", "{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.Repositories", "CubeGlobal.TemperatureConverter.Repositories\CubeGlobal.TemperatureConverter.Repositories.csproj", "{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Integration Tests", "7. Integration Tests", "{D3CCCE6E-FBB9-4108-A337-70F6A6E66457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.Repositories.IntegrationTests", "CubeGlobal.TemperatureConverter.Repositories.IntegrationTests\CubeGlobal.TemperatureConverter.Repositories.IntegrationTests.csproj", "{98ECC032-C64D-4E55-B960-E7EB5F785DA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. UI Hostring", "5. UI Hostring", "{E25CDF19-0940-4B66-9D83-A84F438BFC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeGlobal.TemperatureConverter.UI", "CubeGlobal.TemperatureConverter.UI\CubeGlobal.TemperatureConverter.UI.csproj", "{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5127CA76-E6D2-40CD-A285-34B34F890453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5127CA76-E6D2-40CD-A285-34B34F890453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5127CA76-E6D2-40CD-A285-34B34F890453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5127CA76-E6D2-40CD-A285-34B34F890453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0614CF3-CB92-48BC-B990-D315DC129C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0614CF3-CB92-48BC-B990-D315DC129C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0614CF3-CB92-48BC-B990-D315DC129C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0614CF3-CB92-48BC-B990-D315DC129C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D520F5AC-D2A5-43A1-930C-BD453F8D221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D520F5AC-D2A5-43A1-930C-BD453F8D221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D520F5AC-D2A5-43A1-930C-BD453F8D221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D520F5AC-D2A5-43A1-930C-BD453F8D221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2A73E6-1EF8-413B-9178-D92307CFFD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2A73E6-1EF8-413B-9178-D92307CFFD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2A73E6-1EF8-413B-9178-D92307CFFD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2A73E6-1EF8-413B-9178-D92307CFFD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98ECC032-C64D-4E55-B960-E7EB5F785DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98ECC032-C64D-4E55-B960-E7EB5F785DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98ECC032-C64D-4E55-B960-E7EB5F785DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98ECC032-C64D-4E55-B960-E7EB5F785DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5127CA76-E6D2-40CD-A285-34B34F890453} = {8AFE8DA6-81C0-4131-B5F9-6F84132F2D7D}
+		{A0614CF3-CB92-48BC-B990-D315DC129C44} = {DDEF6AFD-BFDC-48D4-ABA6-9787EA226459}
+		{D520F5AC-D2A5-43A1-930C-BD453F8D221E} = {45BD15CA-32A0-4C4E-9148-269C74DA174D}
+		{EE2A73E6-1EF8-413B-9178-D92307CFFD2A} = {68289014-63D6-4E18-B6F9-C0867764FE9D}
+		{DCF523F7-EB74-4CDF-9C34-A9AE2DF964C9} = {DDEF6AFD-BFDC-48D4-ABA6-9787EA226459}
+		{C25CE1E1-68A5-43D5-B78F-C7C33810E4BB} = {DEC6CCF7-98CE-4B67-ADB1-BECD336D02A9}
+		{2B11E8CE-914B-41FC-B01B-B3A54ABFDF16} = {DEC6CCF7-98CE-4B67-ADB1-BECD336D02A9}
+		{98ECC032-C64D-4E55-B960-E7EB5F785DA9} = {D3CCCE6E-FBB9-4108-A337-70F6A6E66457}
+		{E8B75968-502E-45F8-9B4C-F3FDE75DEFCB} = {E25CDF19-0940-4B66-9D83-A84F438BFC62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED24D514-000F-429F-ABDE-8119ACC6778E}
+	EndGlobalSection
+EndGlobal
